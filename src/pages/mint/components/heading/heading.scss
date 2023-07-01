@@ -1,0 +1,25 @@
+.heading {
+    width: 100%;
+    padding: 0 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.highlight {
+    color: var(--hover-color);
+}
+
+.heading-title {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.heading-p {
+    text-align: center;
+    font-size: 1em;
+}

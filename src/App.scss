@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --dark-color: #000000;
+  --hover-color: #b5179e;
+}
+
+body {
+  background-color: var(--dark-color);
+  overflow-x: hidden;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: 0;
+}
+
+// .App {
+//   display: none;
+//   width: 100vw;
+// }
+
+.pr-2,
+.pl-2 {
+  padding-right: 0.5rem !important;
+}
+
+.font-italic {
+  font-style: italic !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.navbar-toggler-icon{
+  background-image: url(./assets/menu.webp) !important;
+}
+
+@media screen and (min-width: 992px) {
+  .pr-lg-0,
+  .px-lg-0 {
+    padding-right: 0 !important;
+  }
+
+  .pt-lg-4,
+  .py-lg-4 {
+    padding-top: 1.5rem !important;
+  }
+
+  .ml-lg-0,
+  .mx-lg-0 {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mb-sm-7 {
+    margin-bottom: 7rem !important;
+  }
+}

@@ -1,0 +1,4 @@
+export const WhitelistedAddress = [
+  "0xAd5292D3D35F57CC0D7876cfD7B583DC99637b0d",
+  "0xea3AEE783e99b08Cab7A42B74CF325f0Df33C810",
+];
